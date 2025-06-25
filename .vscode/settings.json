@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.liquid": "liquid"
+  },
+  "liquid.format.enable": true,
+  "liquid.completion.enable": true,
+  "liquid.validation.enable": true,
+  "theme-check.liquid.enable": true,
+  "theme-check.liquid.include": [
+    "**/*.liquid"
+  ],
+  "theme-check.liquid.exclude": [
+    "node_modules/**/*",
+    "dist/**/*"
+  ]
+} 
